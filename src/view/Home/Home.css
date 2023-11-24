@@ -1,0 +1,48 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(225, 241, 211);
+}
+
+.head{
+    text-align: center;
+    font-size: 40px;
+    background-color: olive;
+    color: white;
+    padding: 10px;
+    margin: 0;
+   
+}
+
+.main-container{
+    display: block;
+    margin: 100px auto;
+    width: 500px;
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    /* border: 2px solid olive; */
+    position: relative;
+    box-shadow: 10px 10px 17px  5px rgb(240, 232, 232);
+}
+
+.lang-selector{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    padding: 5px 10px;
+    background-color: olive;
+    color: white;
+    border-radius: 7px;
+    font-size: 20px;
+}
+
+.greet-para{
+    font-size: 18px;
+    font-weight: bold;
+    color:rgb(203, 30, 154)
+}
+
+.student-count{
+    font-size: 20px;
+}
